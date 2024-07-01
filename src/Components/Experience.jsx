@@ -7,9 +7,6 @@ import github from '../assets/github.png'
 import react from '../assets/react.png'
 
 const Experience = () => {
-
-
-
     const experiences = [
         {
             id:1,
@@ -57,10 +54,10 @@ const Experience = () => {
     ]
 
   return (
-    <div  name = "experience" className='bg-gradient-to-b from-gray-800 to-black w-full  text-white w-full h-full py-20'>
+    <div  name = "experience" className='bg-gradient-to-b from-gray-800 to-black text-white w-full h-full py-20'>
         <div className='max-w-screen-lg p-4 flex flex-col justify-center h-full w-full mx-auto'>
             <div className='pb-2'>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-500 inline mb-7 '>Experience</p>
+                <p className='text-4xl font-bold border-b-4 border-gray-500 inline mb-7 '>Experience</p>
                 <p className='text-xl py-5'>These are the technologies I have worked with</p>
             </div>
            

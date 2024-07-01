@@ -1,7 +1,6 @@
 import React from 'react'
 import Dp from '../assets/portfolio-image.jpeg'
 import { Link } from 'react-scroll'
-import Portfolio from './Portfolio'
 
 const Home = () => {
   return (
